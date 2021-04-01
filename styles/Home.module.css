@@ -111,7 +111,7 @@
 }
 
 .logo {
-  height: 1em;
+  fill: #1da1f2;
 }
 
 @media (max-width: 600px) {
