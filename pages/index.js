@@ -7,11 +7,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Twitter</title>
-        <link className="logo" rel="icon" href="/T-Icon.svg"/>
+        <link className="logo" rel="icon" href="/T-Icon-blue.svg"/>
       </Head>
 
       <main className={styles.main}>
         <img src="/T-Icon.svg"/>
+        <span>Lo que está pasando ahora</span>
         <Link href="/timeline"><a>/HOME</a></Link>
       </main>
     </div>
