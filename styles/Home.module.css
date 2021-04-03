@@ -1,18 +1,89 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+.conleft {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 47.5%;
+  height: 90vh;
+  float: left;
+  background-image: url(/back-con-l.png);
+  background-position: center center;
+  background-repeat: no-repeat, repeat;
 }
-
-.main {
-  padding: 5rem 0;
-  flex: 1;
+.twilog {
+  width: 50%;
+  filter: invert(100%);
+}
+.conright {
+  max-width: 52.5%;
+  height: 90vh;
+  float: right;
+}
+.secmain {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-top: 60px;
+  margin-left: 35px;
+}
+.h1{
+  width: 90%;
   font-family: var(--Chirp);
+  font-size: 64px;
+  letter-spacing: -1.2px;
+}
+.h2{
+  font-family: var(--Chirp);
+  font-size: 31px;
+}
+.reg{
+  width:380px;
+  height: 46px;
+  padding-left: 32px;
+  padding-right: 32px;
+  cursor: pointer;
+  outline-style: none;
+  background-color: var(--twitter-color);
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 9999px;
+  border-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.is{
+  width:380px;
+  height: 46px;
+  padding-left: 32px;
+  padding-right: 32px;
+  cursor: pointer;
+  outline-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 9999px;
+  border-color: var(--twitter-color);
+  border-width: 1.5px;
+  border-style: solid;
+  color: var(--twitter-color);
+}
+.footer {
+height: 10vh;
+width: 90%;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+flex-direction: row;
+padding-left: 16px;
+padding-right: 16px;
+padding-bottom: 12px;
+padding-top: 12px;
+justify-content: center;
+}
+.footext {
+  pointer-events: auto;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  color: rgb(110, 118, 125);
+  margin-right: 14px;
 }

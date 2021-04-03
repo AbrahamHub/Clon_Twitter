@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-export default function Timeline({userName}){
+export default function Login({userName}){
     return(
         <>
         <Head>
@@ -13,7 +13,7 @@ export default function Timeline({userName}){
         </>
     )
 }
-Timeline.getInitialProps = () => {
+Login.getInitialProps = () => {
   return fetch('http://localhost:3000/api/hello')
   .then(res => res.json())
 }
