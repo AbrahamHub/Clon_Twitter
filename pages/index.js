@@ -16,7 +16,7 @@ export default function Home() {
           <img src="/T-Icon-blue.svg" width="45px"/>
           <h1 className={styles.h1}>Lo que está pasando ahora</h1>
           <h2 className={styles.h2}>Únete a Twitter hoy mismo.</h2>
-          <Link href="/"><a><button className={styles.reg}>Regístrate</button></a></Link>
+          <Link href="/singup"><a><button className={styles.reg}>Regístrate</button></a></Link>
           <Link href="/login"><a><button className={styles.is}>Iniciar sesión</button></a></Link>
         </div>
       </div>
@@ -24,6 +24,7 @@ export default function Home() {
         <img className={styles.twilog} src="/T-Icon.svg"/>
       </div>
       <footer className={styles.footer}>
+        {/* Hacer un componente*/}
         <a className={styles.footext} href="https://about.twitter.com" target="_blank">Acerca de</a>
         <a className={styles.footext} href="https://help.twitter.com" target="_blank">Centro de ayuda</a>
         <a className={styles.footext} href="https://twitter.com/tos" target="_blank">Condiciones de Servicio</a>
