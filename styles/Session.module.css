@@ -1,0 +1,38 @@
+.main{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwYhNoIxtaqNvfts2v1IfJhk2c3X6S_SH7zA&usqp=CAU);
+}
+.sec{
+    background: #fff;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .3);
+    height: 97vh;
+    width: 520px;
+    margin: 0 auto;
+}
+.button{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+    cursor: pointer;
+    outline-style: none;
+    background-color: var(--twitter-color);
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 9999px;
+    border-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.button img{
+    width:30px;
+    margin-right: 20px;
+}

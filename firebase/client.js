@@ -18,3 +18,9 @@ export const loginWithTwitter = () => {
     .auth()
     .signInWithPopup(twitterProvider)
 }
+export const loginWithGitHub = () => {
+  const githubProvider = new firebase.auth.GithubAuthProvider()
+  return firebase
+    .auth()
+    .signInWithPopup(githubProvider)
+}
